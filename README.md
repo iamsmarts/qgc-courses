@@ -4,7 +4,7 @@
 JSON data with course details for QGC challenges.
 
 Compiling data to eventually build app for Quazar Golf Club challanges.
-Current data collection is being done manually, unless a public database or collection is found.
+Current data collection is being done manually, unless a PUBLIC database or API is found.
 
 Course data is collected as club challenges are planned.
 
