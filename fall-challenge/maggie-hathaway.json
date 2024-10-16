@@ -1,0 +1,118 @@
+{
+  "name": "Maggie Hathaway",
+  "course_id": 1,
+  "address": "1921 W 98th St, Los Angeles, CA 90047",
+  "url": "https://parks.lacounty.gov/maggie-hathaway-golf-course/",
+  "number_of_holes": 9,
+  "par": 27,
+  "course_type": "3 par - 9 hole",
+  "driving_range": true,
+  "putting_green": true,
+  "chipping_green": false,
+  "practice_bunker": false,
+  "driving_cart": false,
+  "push_cart": false,
+  "weekday_price": 8.25,
+  "weekend_price": 9.50,
+  "twilight_price": 8.25,
+  "length": 1008,
+  "holes":[
+      {
+        "number": 0,
+        "handicap": 0,
+        "par": 0,
+        "tees": [
+          {
+          "number": 1,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap":9,
+              "yards": 90
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 8,
+              "yards": 100
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 3,
+              "yards": 121
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 6,
+              "yards": 109
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 1,
+              "yards": 132
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 4,
+              "yards": 114
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 7,
+              "yards": 103
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 2,
+              "yards": 128
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "tees":[
+            {
+              "tee_name":"white",
+              "handicap": 5,
+              "yards": 111
+            }
+          ]
+        }
+        ]
+      }
+  ]
+}
