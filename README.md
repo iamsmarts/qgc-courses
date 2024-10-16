@@ -1,4 +1,5 @@
 ## quasargolf.club - courses
+
 --
 JSON data with course details for QGC challenges.
 
@@ -7,31 +8,36 @@ Current data collection is being done manually, unless a public database or coll
 
 Course data is collected as club challenges are planned.
 
-
-
 Data Schema Example (WIP)
+
 ```
 courses:[
-    {
-        name: 'String',
-        id: Number,
-        location: 'String'
-        holesCount: Number,
-        frontPar: Number,
-        totalPar: Number,
-        holes: Array[
-            {
-                number: number,
-                tees: array[
-                    {
-                        tee: 'String',
-                        yards: Number,
-                        handicap: Number,
-                        par: Number
-                    }
-                ]
-            }
-        ]
-    }
+  {
+    name: String,
+    course_id: Number,
+    address: String,
+    url: String,
+    number_of_holes: Number,
+    driving_range: Boolean,
+    putting_green: Boolean,
+    chipping_green: Boolean,
+    practice_bunker: Boolean,
+    driving_cart: Boolean,
+    push_cart: Boolean,
+    holes: Array[
+        {
+          course_id
+          number: number,
+          tees: array[
+              {
+                  tee: String,
+                  yards: Number,
+                  handicap: Number,
+                  par: Number
+              }
+          ]
+        }
+    ]
+  }
 ]
 ```
