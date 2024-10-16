@@ -25,7 +25,7 @@ courses:[
                 tees: array[
                     {
                         tee: 'String',
-                        yards: Number,
+                      yards: Number,
                         handicap: Number,
                         par: Number
                     }
