@@ -18,22 +18,27 @@ courses:[
     address: String,
     url: String,
     number_of_holes: Number,
+    par: Number,
+    course_type: String,
     driving_range: Boolean,
     putting_green: Boolean,
     chipping_green: Boolean,
     practice_bunker: Boolean,
     driving_cart: Boolean,
     push_cart: Boolean,
+    weekday_price: Number,
+    weekend_price: Number,
+    twilight_price: Number,
     holes: Array[
         {
           course_id
           number: number,
+          handicap: Number,
+          par: Number
           tees: array[
               {
                   tee: String,
                   yards: Number,
-                  handicap: Number,
-                  par: Number
               }
           ]
         }
